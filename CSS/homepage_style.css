@@ -1,17 +1,24 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
 #navbar
 {
     display: inline-block;
     width: 100%;
-    border-bottom: solid 1vw black;
+    background-color: #a7cde9;
 }
 
 #nav_message
 {
     display: inherit;
-    margin-top: 0;
-    width: 25vw;
+    margin-top: 3vw;
+    width: 30vw;
     height: 100%;
     margin-right: 25vw;
+    margin-left: 36vw;
 }
 
 h1
@@ -26,16 +33,17 @@ h1
 {
     display: inherit;
     margin-top: 0em;
-    margin-left: 4vw;
+    margin-left: 6vw;
 }
 
-#logo_image
+/* #logo_image
 {
     margin: 1vw;
     margin-right: 30vw;
-}
+} */
 
 #account
 {
     display: inherit;
+    margin-bottom: 4vw;
 }
