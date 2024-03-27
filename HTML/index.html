@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/homepage_style.css">
+    <link rel="stylesheet" href="../CSS/calendar.css">
     <title>Balance Planner Homepage</title>
 </head>
 <body>
@@ -25,6 +26,81 @@
         </div>
     </nav>
     <div>
+        <h1>Calendar</h1>
+        
+        <h2 align="center">
+            March 2024
+        </h2>
+        
+        <table align="center"
+            cellspacing="20" cellpadding="20" id="schedule_table">
+
+            <thead>
+                <tr>
+                    <th class="schedule_th">Mon</th>
+                    <th class="schedule_th">Tue</th>
+                    <th class="schedule_th">Wed</th>
+                    <th class="schedule_th">Thu</th>
+                    <th class="schedule_th">Fri</th>
+                    <th class="schedule_th">Sat</th>
+                    <th class="schedule_th">Sun</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr class="weekday" id="week1" onclick="getWeek(1)">
+                    <td  class="schedule_td"></td>
+                    <td  class="schedule_td"></td>
+                    <td  class="schedule_td"></td>
+                    <td  class="schedule_td"></td>
+                    <td  class="schedule_td">1</td>
+                    <td  class="schedule_td">2</td>
+                    <td  class="schedule_td">3</td>
+                </tr>
+                <tr class="weekday" id="week2" onclick="getWeek(2)">
+                    <td class="schedule_td">4</td>
+                    <td class="schedule_td">5</td>
+                    <td class="schedule_td">6</td>
+                    <td class="schedule_td">7</td>
+                    <td class="schedule_td">8</td>
+                    <td class="schedule_td">9</td>
+                    <td class="schedule_td">10</td>
+                </tr>
+                <tr class="weekday" id="week3" onclick="getWeek(3)">
+                    <td class="schedule_td">11</td>
+                    <td class="schedule_td">12</td>
+                    <td class="schedule_td">13</td>
+                    <td class="schedule_td">14</td>
+                    <td class="schedule_td">15</td>
+                    <td class="schedule_td">16</td>
+                    <td class="schedule_td">17</td>
+                </tr>
+                <tr class="weekday" id="week4" onclick="getWeek(4)">
+                    <td class="schedule_td">18</td>
+                    <td class="schedule_td">19</td>
+                    <td class="schedule_td">20</td>
+                    <td class="schedule_td">21</td>
+                    <td class="schedule_td">22</td>
+                    <td class="schedule_td">23</td>
+                    <td class="schedule_td">24</td>
+                </tr>
+                <tr class="weekday" id="week5" onclick="getWeek(5)">
+                    <td class="schedule_td">25</td>
+                    <td class="schedule_td">26</td>
+                    <td class="schedule_td">27</td>
+                    <td class="schedule_td">28</td>
+                    <td class="schedule_td">29</td>
+                    <td class="schedule_td">30</td>
+                    <td class="schedule_td">31</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <a id="weekText"> The week you select </a>
+        
+        <script src="../JS/calendar.js"></script>
+    </div>
+    <div>
         <!-- pie chart -->
         <img src="../Images/Your Score.png" width="900vw" height="550vw" id="pie_chart">
     </div>
@@ -32,7 +108,7 @@
         <img src="../Images/imageonline-co-stackedbarchart.png" width="900w" height="450vw" id="bar_chart">
     </div>
     <div id="score_display">
-        <h3 class="schedule_display">
+        <h3 class="schedule_display" id="score_title">
             Your schedule score:
         </h3>
         <p class="schedule_display" id="percentage">43%</p>
@@ -46,14 +122,14 @@
                 </th>
             </tr>
             <td>
-                <ul>
-                    <li>Fitness</li>
-                    <li>Mindfulness</li>
+                <ul class="score_list">
+                    <li class="score_data">Fitness</li>
+                    <li class="score_data">Mindfulness</li>
                 </ul>
             </td>
             <td>
-                <ul>
-                    <li>
+                <ul class="score_list">
+                    <li class="score_data">
                         Work
                     </li>
                 </ul>

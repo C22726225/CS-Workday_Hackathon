@@ -2,6 +2,7 @@ body
 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: #27363b;
 }
 
 #navbar
@@ -10,7 +11,7 @@ body
     flex-wrap: nowrap;
     justify-content: center;
     width: 100%;
-    background-color: #a7cde9;
+    background-color: #99b998;
     align-items: center;
     position: fixed;
     top: 0;
@@ -87,13 +88,13 @@ a:link
     padding-top: 10vw;
 }
 
-ul
+.score_list
 {
     list-style-type: none;
     margin-left: 20vw;
 }
 
-li
+.score_data
 {
     padding: 1vw;
 }
@@ -104,7 +105,7 @@ li
     justify-content: center;
 }
 
-h3
+#score_title
 {
     margin-top: 10vw;
     padding-top: 5vw;
@@ -113,7 +114,7 @@ h3
 
 #score_display
 {
-    background-color: #8fd980;
+    background-color: white;
     color: black;
 }
 

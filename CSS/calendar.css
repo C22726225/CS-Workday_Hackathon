@@ -1,4 +1,4 @@
-table {
+#schedule_table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 50%;
@@ -7,16 +7,17 @@ table {
     padding:"21px";
     height: 500px;
     background-color: #efefef;
+    margin-top: 10vw;
 }
 
-th {
+.schedule_th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
     width: 30px;
 }
   
-td {
+.schedule_td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
@@ -27,3 +28,10 @@ tr.weekday:hover {
     background-color: rgb(203, 203, 203);
 }
 
+#weekText
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
