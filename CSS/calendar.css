@@ -1,0 +1,29 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    align-self: "center";
+    border-spacing: "21px";
+    padding:"21px";
+    height: 500px;
+    background-color: #efefef;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 30px;
+}
+  
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 30px;
+}
+
+tr.weekday:hover {
+    background-color: rgb(203, 203, 203);
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/calendar.css">
+    <title>Calendar</title>
+    
+</head>
+<body>
+    
+    <h1>Calendar</h1>
+    
+	<h2 align="center">
+		March 2024
+	</h2>
+	
+	<table align="center"
+		cellspacing="20" cellpadding="20">
+
+		<thead>
+			<tr>
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+				<th>Sat</th>
+                <th>Sun</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr class="weekday" id="week1" onclick="getWeek(1)">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr class="weekday" id="week2" onclick="getWeek(2)">
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+                <td>10</td>
+			</tr>
+			<tr class="weekday" id="week3" onclick="getWeek(3)">
+				<td>11</td>
+				<td>12</td>
+				<td>13</td>
+				<td>14</td>
+				<td>15</td>
+				<td>16</td>
+                <td>17</td>
+			</tr>
+			<tr class="weekday" id="week4" onclick="getWeek(4)">
+				<td>18</td>
+				<td>19</td>
+				<td>20</td>
+				<td>21</td>
+				<td>22</td>
+				<td>23</td>
+                <td>24</td>
+			</tr>
+			<tr class="weekday" id="week5" onclick="getWeek(5)">
+				<td>25</td>
+				<td>26</td>
+				<td>27</td>
+				<td>28</td>
+				<td>29</td>
+				<td>30</td>
+                <td>31</td>
+			</tr>
+		</tbody>
+	</table>
+    
+    <a id="weekText"> The week you select </a>
+    
+    <script src="../JS/calendar.js"></script>
+</body>
+</html>
