@@ -80,3 +80,44 @@ a:link
     margin-left: 20vw;
     padding-top: 20vw;
 }
+
+#bar_chart
+{
+    margin-left: 20vw;
+    padding-top: 10vw;
+}
+
+ul
+{
+    list-style-type: none;
+    margin-left: 20vw;
+}
+
+li
+{
+    padding: 1vw;
+}
+
+.schedule_display
+{
+    display: flex;
+    justify-content: center;
+}
+
+h3
+{
+    margin-top: 10vw;
+    padding-top: 5vw;
+    font-size: large;
+}
+
+#score_display
+{
+    background-color: #8fd980;
+    color: black;
+}
+
+#percentage
+{
+    font-size: xx-large;
+}
