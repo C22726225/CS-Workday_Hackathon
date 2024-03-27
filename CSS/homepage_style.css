@@ -12,6 +12,8 @@ body
     width: 100%;
     background-color: #a7cde9;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 #nav_message
@@ -71,4 +73,10 @@ a:link
     font-size: large;
     
     text-decoration: none;
+}
+
+#pie_chart
+{
+    margin-left: 20vw;
+    padding-top: 20vw;
 }
